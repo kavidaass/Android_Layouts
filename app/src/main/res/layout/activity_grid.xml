@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:rowCount="3"
+    tools:context=".GridActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grid_layout_heading"
+        android:layout_columnSpan="3"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"/>
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:layout_columnSpan="3"
+        android:onClick="goNextScreen"
+        android:text="@string/got_it"/>
+
+</GridLayout>
